@@ -1,0 +1,57 @@
+
+body {
+	font-family: Segoe UI, SegoeUI, Segoe WP, Helvetica Neue, Helvetica, Tahoma, Arial, sans-serif;
+	font-size: 12pt;
+	max-width: 1900px;
+	margin: 0 auto 0 auto;
+	padding: 10px;
+	color: #333;
+}
+
+table {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+td, th {
+	padding: 8px;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+.weapon_attributes > td {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.weapon_attributes th {
+	background: #fff;
+	color: #333;
+}
+
+tr.unit_attributes {
+	background: #333;
+	color: #eee;
+}
+
+.unit_attributes .name {
+	font-weight: bold;
+}
+
+tr.dps > td {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+td.dps_pure {
+	font-weight: bold;
+}
+
+td.dps_chart > div {
+	margin: 0 auto 0 auto;
+	max-width: 550px;
+	height: 170px;
+}
